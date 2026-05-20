@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova | DecodeLabs Responsive Architecture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.435.0/umd/lucide.min.js"></script>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container flex-row align-center justify-between">
+            <a href="#" class="logo">Tech<span>Nova</span></a>
+            <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <i data-lucide="menu"></i>
+            </button>
+            <nav class="nav-links" id="navLinks">
+                <a href="#features">Features</a>
+                <a href="#services">Services</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="app-layout-grid">
+        
+        <aside class="sidebar-panel">
+            <div class="sidebar-sticky-content">
+                <span class="badge">Ecosystem Navigation</span>
+                <nav class="sidebar-nav">
+                    <a href="#features" class="side-link active"><i data-lucide="layers"></i> <span>Core Features</span></a>
+                    <a href="#mission" class="side-link"><i data-lucide="target"></i> <span>Our Mission</span></a>
+                    <a href="#services" class="side-link"><i data-lucide="cpu"></i> <span>Services Map</span></a>
+                    <a href="#contact" class="side-link"><i data-lucide="mail"></i> <span>Contact Desk</span></a>
+                </nav>
+                <div class="sidebar-footer-card glass-card">
+                    <h4>Operational Status</h4>
+                    <p class="text-small text-muted">All systems operational in 2026 deployment cycle.</p>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main-content-canvas">
+
+            <section class="hero">
+                <div class="grid-2">
+                    <div class="hero-content">
+                        <span class="badge">Next-Gen AI Platform</span>
+                        <h1>Build Smarter Digital Experiences</h1>
+                        <p>Helping startups grow with modern web development and AI-powered solutions.</p>
+                        <div class="hero-actions flex-row gap-1">
+                            <a href="#contact" class="btn btn-primary">Get Started</a>
+                            <a href="#features" class="btn btn-outline">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="glass-card mockup-wrapper">
+                            <div class="mockup-header"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="SaaS Framework Interface" class="mockup-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="trusted text-center">
+                <p class="subtitle">Trusted by fast-growing modern teams</p>
+                <div class="flex-row justify-center gap-3 flex-wrap brand-logos">
+                    <span>Acme Corp</span><span>Quantum</span><span>PulseAI</span><span>ApexData</span>
+                </div>
+            </section>
+
+            <section id="features" class="padding-y">
+                <div class="margin-b">
+                    <h2>Engineered for Excellence</h2>
+                    <p class="text-muted">Everything you need to scale your digital presence effectively.</p>
+                </div>
+                
+                <article class="grid-3">
+                    <div class="glass-card pad-2">
+                        <i data-lucide="zap" class="icon"></i>
+                        <h3>Fast Development</h3>
+                        <p class="text-muted">Deploy optimized, blazing-fast applications natively designed for speed optimization structures.</p>
+                    </div>
+                    <div class="glass-card pad-2">
+                        <i data-lucide="shield" class="icon"></i>
+                        <h3>Secure Systems</h3>
+                        <p class="text-muted">Enterprise-grade protection frameworks ensuring your local system database remains completely secure.</p>
+                    </div>
+                    <div class="glass-card pad-2">
+                        <i data-lucide="smartphone" class="icon"></i>
+                        <h3>Fully Responsive</h3>
+                        <p class="text-muted">Fluid user experiences tailored seamlessly across completely dynamic responsive screen layouts.</p>
+                    </div>
+                </article>
+            </section>
+
+            <section id="mission" class="padding-y split-about-block">
+                <div class="grid-2">
+                    <div class="about-image-wrapper">
+                        <div class="about-bg-box"></div>
+                        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=600&q=80" alt="Operational Training Desk" class="about-img">
+                    </div>
+                    <div>
+                        <span class="badge">Our Core Mission</span>
+                        <h2>Bridging the gap between automated intelligence & grounding design</h2>
+                        <p class="text-muted">Software should feel native, warm, and highly readable. We process the technical backend layers so your administrative systems can scale clearly.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="padding-y">
+                <div class="margin-b">
+                    <h2>Our Ecosystem of Services</h2>
+                    <p class="text-muted">Tailored engineering fields meant to scale your fundamental performance metrics upward.</p>
+                </div>
+                <div class="grid-4">
+                    <div class="glass-card pad-1 flex-row align-center gap-1"><i data-lucide="code" class="icon-small"></i><h4>Web Dev</h4></div>
+                    <div class="glass-card pad-1 flex-row align-center gap-1"><i data-lucide="palette" class="icon-small"></i><h4>UI/UX Design</h4></div>
+                    <div class="glass-card pad-1 flex-row align-center gap-1"><i data-lucide="cloud" class="icon-small"></i><h4>Cloud Fabrics</h4></div>
+                    <div class="glass-card pad-1 flex-row align-center gap-1"><i data-lucide="cpu" class="icon-small"></i><h4>AI Integration</h4></div>
+                </div>
+            </section>
+
+            <section class="padding-y stats-card-block">
+                <div class="grid-4 text-center margin-b">
+                    <div class="stat-item"><h3>500+</h3><p class="subtitle">Clients Global</p></div>
+                    <div class="stat-item"><h3>120+</h3><p class="subtitle">Projects</p></div>
+                    <div class="stat-item"><h3>98%</h3><p class="subtitle">Satisfaction</p></div>
+                    <div class="stat-item"><h3>24/7</h3><p class="subtitle">Support</p></div>
+                </div>
+                <div class="glass-card pad-2 text-center max-w-md mx-auto">
+                    <p class="quote">"TechNova completely transformed our product experience ecosystem. Their dynamic interface elements changed our layout workflows natively."</p>
+                    <strong>Sarah Johnson</strong><span class="text-muted text-small"> — CTO, AlphaScale</span>
+                </div>
+            </section>
+
+            <section id="contact" class="padding-y">
+                <div class="grid-2">
+                    <div class="contact-text-node">
+                        <h2>Ready To Connect Your Next Big Venture?</h2>
+                        <p class="text-muted margin-b mt-1">Submit your parameters inside the framework and speak directly with an operations lead.</p>
+                        <div class="glass-card pad-1 text-center bg-accent-box">
+                            <h3 class="mb-05">Launch Window Active</h3>
+                            <p class="text-small text-dark">Build your system blueprint cleanly.</p>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <form class="glass-card pad-2 flex-column gap-1">
+                            <div>
+                                <label for="form-email">Email Address</label>
+                                <input type="email" id="form-email" required placeholder="name@domain.com">
+                            </div>
+                            <div>
+                                <label for="form-msg">Project Scope Brief</label>
+                                <textarea id="form-msg" rows="4" required placeholder="Provide parameters of requested architectural layout..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-full">Deploy Ingestion Form</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-grid container">
+            <div class="footer-column">
+                <a href="#" class="logo">Tech<span>Nova</span></a>
+                <p class="text-muted text-small mt-05">Next-gen web development and software architectural design frameworks.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Navigation Map</h4>
+                <div class="flex-column gap-0-5 mt-05">
+                    <a href="#features" class="text-muted text-small">Features Overview</a>
+                    <a href="#services" class="text-muted text-small">Ecosystem Matrix</a>
+                    <a href="#contact" class="text-muted text-small">Contact Intake</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Communication Nodes</h4>
+                <div class="flex-column gap-0-5 mt-05 text-small text-muted">
+                    <p class="flex-row align-center gap-0-5"><i data-lucide="phone" style="width:14px; height:14px;"></i> 9321674112</p>
+                    <p class="flex-row align-center gap-0-5"><i data-lucide="mail" style="width:14px; height:14px;"></i> anshita123vish@gmail.com</p>
+                </div>
+                <div class="flex-row gap-1 align-center footer-socials mt-1">
+                    <a href="#" aria-label="Twitter Hub"><i data-lucide="twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn Profile"><i data-lucide="linkedin"></i></a>
+                    <a href="#" aria-label="GitHub Repository"><i data-lucide="github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-muted footer-bottom">
+            &copy; 2026 TechNova Frameworks. Built on DecodeLabs Platform Standards.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
