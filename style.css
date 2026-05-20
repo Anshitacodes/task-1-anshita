@@ -1,10 +1,10 @@
-/* --- PILLAR 2 DESIGN THEME AND DESIGN SYSTEM TOKENS --- */
+
 :root {
-    /* Exact Color Tokens Mapped from Page 9 Specifications */
-    --bg-dark: #2C2523;          /* Mocha Dark Grounding Accent */
-    --bg-card: #F2F0EA;          /* Moonlit Grey Canvas Refinement */
-    --border-glass: #A5856F;     /* Mocha Mousse Stability Framing Edge */
-    --accent-blue: #A0D4E0;      /* Ethereal Blue Action & Trust Marker */
+    
+    --bg-dark: #2C2523;         
+    --bg-card: #F2F0EA;          
+    --border-glass: #A5856F;    
+    --accent-blue: #A0D4E0;      
     
     --primary-grad: linear-gradient(135deg, #A5856F 0%, #8A6D59 100%);
     --white: #ffffff;
